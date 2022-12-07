@@ -21,7 +21,6 @@ services:
     build:
       context: node
     container_name: app
-    entrypoint: "docker-deploy.sh"
     networks:
       - node-network
     volumes:

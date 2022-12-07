@@ -4,8 +4,7 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN chmod +x ./wait-for-it.sh && chmod +x ./docker-deploy.sh
-RUN npm install --silent
+RUN chmod -777 wait-for-it.sh && chmod -777 docker-deploy.sh && npm install --silent
 
 EXPOSE 3000
 
