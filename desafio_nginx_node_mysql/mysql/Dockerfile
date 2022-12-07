@@ -3,4 +3,4 @@ FROM mysql:5.7
 ENV MYSQL_DATABASE nodedb
 ENV MYSQL_ROOT_PASSWORD=root
 
-COPY ./db/ /docker-entrypoint-initdb.d/
+COPY ./CreateDatabase.sql /docker-entrypoint-initdb.d/
