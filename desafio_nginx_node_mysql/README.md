@@ -1,4 +1,4 @@
-- Download the docker-compose.yaml file
+- Clone the project
 - Run the command: docker-compose up
 - At the end of the process, in the browser type: http://localhost:8080
 - To add a name: http://localhost:8080?peopleName=PEOPLE_NAME
