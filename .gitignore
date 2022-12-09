@@ -1,2 +1,4 @@
 desafio_nginx_node_mysql/node/node_modules/**
 desafio_nginx_node_mysql/node/package-lock.json
+desafio_nginx_node_mysql/mysql/db/**
+!desafio_nginx_node_mysql/mysql/db
